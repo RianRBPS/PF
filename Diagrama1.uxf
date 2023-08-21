@@ -1,0 +1,12 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><help_text>MEssalong</help_text><element><id>Relation</id><coordinates><x>289</x><y>348</y><w>264</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-
+InterruptedException</panel_attributes><additional_attributes>10;40;80;40;80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>289</x><y>252</y><w>312</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>240;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>877</x><y>252</y><w>240</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Thread.sleep(4000)</panel_attributes><additional_attributes>10;100;70;100;70;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>49</x><y>240</y><w>252</w><h>192</h></coordinates><panel_attributes>_main_
+--
+ throws InterruptedException
+threadMessage("Finally!");</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>577</x><y>240</y><w>312</w><h>192</h></coordinates><panel_attributes>_MessageLoop_
+--
+ String importantInfo[]
+
+catch (InterruptedException e) {
+                threadMessage("I wasn't done!");
+            }</panel_attributes><additional_attributes></additional_attributes></element></diagram>
